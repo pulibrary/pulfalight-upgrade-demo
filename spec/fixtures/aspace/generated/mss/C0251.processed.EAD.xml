@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"><eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511"><eadid url="http://arks.princeton.edu/ark:/88435/5x21tf44b">C0251</eadid><filedesc><titlestmt><titleproper>Edward Julian Nally Papers, 1812-1953 (bulk 1905-1948): Finding Aid <num>C0251</num></titleproper></titlestmt><publicationstmt><publisher>Manuscripts Division </publisher><p><date>2002</date></p><address><addressline>Firestone Library</addressline><addressline>One Washington Road</addressline><addressline>Princeton, New Jersey 08544</addressline></address></publicationstmt></filedesc><profiledesc><creation>This finding aid was produced using ArchivesSpace on <date>2021-07-26 19:15:36 -0400</date>.</creation><langusage>Description is written in: <language langcode="eng" scriptcode="Latn">English, Latin script</language>.</langusage><descrules>Finding aid content adheres to that prescribed by Describing Archives: A Content Standard.</descrules></profiledesc><revisiondesc><change><date>2012-05-02T12:19:41.686-04:00</date><item>Run through PULFA 2.0 normalization routines.</item></change></revisiondesc></eadheader><archdesc level="collection">
+  <did>
+    <repository>
+      <corpname>Manuscripts Division </corpname>
+    </repository>
+    <unittitle>Edward Julian Nally Papers</unittitle>
+    <origination label="Creator">
+      <corpname authfilenumber="https://viaf.org/viaf/6943157226626985410004" role="col" source="viaf">Princeton University. Library. Special Collections</corpname>
+    </origination>
+    <origination label="Creator">
+      <persname authfilenumber="https://viaf.org/viaf/2530161" role="asn" source="viaf">Morse, Samuel Finley Breese, 1791-1872</persname>
+    </origination>
+    <origination label="Creator">
+      <persname authfilenumber="https://viaf.org/viaf/78970292" role="cre" source="viaf">Nally, Edward Julian, 1859-1953</persname>
+    </origination>
+    <unitid>C0251</unitid>
+    <physdesc altrender="whole">
+      <extent altrender="materialtype spaceoccupied">13 boxes</extent>
+    </physdesc>
+    <physdesc altrender="whole">
+      <extent altrender="materialtype spaceoccupied">4.25 linear feet</extent>
+    </physdesc>
+    <unitdate datechar="creation" normal="1812/1953" type="inclusive">1812-1953</unitdate>
+    <unitdate datechar="creation" normal="1905/1948" type="bulk">1905-1948</unitdate>
+    <abstract id="aspace_d2299c1242ae87af002dbd028a6c7fce">The personal papers of Edward Julian Nally, an American radio industrialist, trace the development of his career in the communications industry, from his earliest days with the Western Union Telegraph Co. (1875-1890), through his tenure with the Postal Telegraph Cable Co. (1890-1913), to his years with the Marconi Wireless Telegraph Co. of America (1913-1919); the bulk of the collection, however, covers his years with the Radio Corporation of America (RCA), for which he served as first president (1919-1923) and director.</abstract>
+    <physloc id="aspace_b4720c7e49e86c9d3b55fe5eecfe1c1f">mss</physloc>
+    <langmaterial>
+      <language langcode="eng">English</language>
+.    </langmaterial>
+  </did>
+  <scopecontent id="aspace_b42cf156cc856d9635740d62dfb66d34">
+    <head>Scope and Contents</head>
+<p>The collection contains personal papers of Nally which trace the development of his career in the communications industry. The collection includes correspondence, photographs, and printed matter from Nally's earliest days with the Western Union Telegraph Co. (1875-1890), through his tenure with the Postal Telegraph Cable Co. (1890-1913), to his years with the Marconi Wireless Telegraph Co. of America (1913-1919); the bulk of the collection, however, covers his years with the Radio Corporation of America (RCA), for which he served as first president (1919-1923) and director, providing insight into the growth of the company, from its nascent development to its world-wide communications empire. Technological developments in radio and television (color and "ultrafax") are described, and material about the company's radio show, "The Magic Key of R.C.A.," with a script for its 1939 New Year's gala, are included.</p><p> The collection also includes correspondence, photographs, memorials, and a scrapbook of Samuel Finley Breese Morse, inventor and painter, whose great-grandfather, Samuel Finley, was the fifth president of the College of New Jersey (Princeton). Among the papers are a daguerreotype of Morse likely made by Matthew Brady about 1850 and a genealogy of the Finley and Breese families written by Morse in 1841.</p>  </scopecontent>
+  <accessrestrict id="aspace_e33d62b277bd8f0740e70dac8f3cb423">
+    <head>Conditions Governing Access</head>
+<p>Collection is open for research use.</p>  </accessrestrict>
+  <userestrict id="aspace_a773db65d0d736b3c24662d20d990b44">
+    <head>Conditions Governing Use</head>
+<p>Single photocopies may be made for research purposes. No further photoduplication of copies of material in the collection can be made when Princeton University Library does not own the original. Inquiries regarding publishing material from the collection should be directed to RBSC Public Services staff through the <extref xlink:href="https://library.princeton.edu/special-collections/ask-us" xlink:type="simple">Ask Us! form</extref>. The library has no information on the status of literary rights in the collection and researchers are responsible for determining any questions of copyright.</p>  </userestrict>
+  <acqinfo id="aspace_ee8c455f50b6bf0c4e0d54c48a63a337">
+    <head>Immediate Source of Acquisition</head>
+<p>Gift of Mrs. F.H. Nahn and her brother Julian Nally '27.</p>  </acqinfo>
+  <appraisal id="aspace_7a9911c1e499cca7dc43a0ded7a7da0e">
+    <head>Appraisal</head>
+<p>No appraisal information is available.</p>  </appraisal>
+  <prefercite id="aspace_cdf03b8fdfd9e0b239a68c515b484c12">
+    <head>Preferred Citation</head>
+<p>Identification of specific item; Date (if known); Edward Julian Nally Papers, Box and Folder Number; Special Collections, Princeton University Library.</p>  </prefercite>
+  <bioghist id="aspace_94739ec5d22a8b5d9dc2c889252ac487">
+    <head>Biographical / Historical</head>
+<p>Nally was a communications executive, a pioneeer in telegraph, telephone, and radio. He started as a messenger boy (1875) in St. Louis with the Western Union Telegraph Company and became president of RCA in 1919.</p>  </bioghist>
+  <controlaccess>
+    <subject source="lcsh">Color television -- United States -- History.</subject>
+    <subject source="lcsh">Radio programs -- United States.</subject>
+    <subject source="lcsh">Radio -- United States -- History.</subject>
+    <subject source="lcsh">Telegraph, Wireless -- Marconi system.</subject>
+    <subject source="lcsh">Television -- United States -- History.</subject>
+    <subject source="lcsh">Ultrafax.</subject>
+    <genreform source="aat">Correspondence.</genreform>
+    <genreform source="aat">Daguerreotypes.</genreform>
+    <genreform source="aat">Genealogies.</genreform>
+    <genreform source="aat">Photoprints.</genreform>
+    <genreform source="aat">Radio scripts.</genreform>
+    <genreform source="aat">Daguerreotypes (photographs).</genreform>
+    <corpname authfilenumber="https://viaf.org/viaf/137136404" source="viaf">Western Union Telegraph Company</corpname>
+    <corpname authfilenumber="https://viaf.org/viaf/157075334" source="viaf">Radio Corporation of America.</corpname>
+    <corpname authfilenumber="https://viaf.org/viaf/155908162" source="viaf">Marconi Wireless Telegraph Company of America</corpname>
+    <persname authfilenumber="https://viaf.org/viaf/22965552" source="viaf">Brady, Mathew B., approximately 1823-1896.</persname>
+    <persname authfilenumber="https://viaf.org/viaf/2530161" source="viaf">Morse, Samuel Finley Breese, 1791-1872</persname>
+  </controlaccess>
+  <dsc><c id="aspace_C0251_c0001" level="series"><did><unittitle>Series 1: Biographical Material</unittitle><physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1 box</extent></physdesc><unitdate datechar="creation">dates not examined</unitdate></did><accessrestrict id="aspace_04aa877c9ca50a9072168cae6a02d934"><head>Conditions Governing Access</head><p>Collection is open for research use.</p></accessrestrict><scopecontent id="aspace_e230c82622b9a69377b80095597ea2c2"><head>Scope and Contents</head><p>Consists of biographical material of Edward Julian Nally, including correspondence regarding Catholic Builders of the Nation, press releases, passports, and visas.</p></scopecontent><arrangement id="aspace_231816e98eedea86147301631b9f55a0"><head>Arrangement</head><p>Arranged by genre of material.</p></arrangement><c id="aspace_C0251_c0002" level="file"><did><unittitle>Addresses- Correspondence re: Catholic Builders of the Nation</unittitle><physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1 folder</extent></physdesc><unitdate datechar="creation">dates not examined</unitdate><container altrender="mss" encodinganalog="NBox" id="aspace_4a2d088c3a767450594bf16b32afb256" label="Mixed Materials [32101037104989]" type="box">1</container><container id="aspace_3ff61d057f8ef012505e3cb7cff156ae" parent="aspace_4a2d088c3a767450594bf16b32afb256" type="folder">1</container></did><accessrestrict id="aspace_95f614f10b5c630dbd4692cee1adc4bb"><head>Conditions Governing Access</head><p>Collection is open for research use.</p></accessrestrict></c></c><c id="aspace_C0251_c0007" level="series"><did><unittitle>Series 2: Career</unittitle><physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">8 boxes</extent></physdesc><unitdate datechar="creation" normal="1899-01-01/1929-12-31" type="inclusive">1899-1929</unitdate></did><accessrestrict id="aspace_09fcaae1416e8ed0afcf5d9174062e5b"><head>Conditions Governing Access</head><p>Collection is open for research use.</p></accessrestrict><scopecontent id="aspace_908598e93c9954a4473e04a6bc4c7b82"><head>Scope and Contents</head><p>Consists of papers related to Edward Julian Nally's career with telegraphs, including companies such as Western Union Telegraph, Postal Telegraph Cable Co., and Marconi Wireless Telegraph Company of America.</p></scopecontent><arrangement id="aspace_481e18d6816132ca571a6039e88e56db"><head>Arrangement</head><p>This series is arranged into five subseries: Telegraph--Early Days, Western Union Telegraph, Postal Telegraph Cable Co., Marconi Wireless Telegraph Company of America, and Radio Corporations of America (R.C.A.).</p></arrangement></c><c id="aspace_C0251_c0089" level="series"><did><unittitle>Series 3: Photographs</unittitle><physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1 box</extent></physdesc><unitdate datechar="creation">dates not examined</unitdate></did><accessrestrict id="aspace_326bcac1aebc56103a5250336146df6e"><head>Conditions Governing Access</head><p>Collection is open for research use.</p></accessrestrict><scopecontent id="aspace_fd3950472576a2e54f44ce190898671b"><head>Scope and Contents</head><p>Consists of photographs of Edward Julian Nally.</p></scopecontent><arrangement id="aspace_a75974f9e9ca6d54d5484059120ea2c6"><head>Arrangement</head><p>Not arranged according to any arrangement scheme.</p></arrangement></c><c id="aspace_C0251_c0091" level="series"><did><unittitle>Series 4: Miscellaneous Material</unittitle><physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1 box</extent></physdesc><unitdate datechar="creation" normal="1945-01-01/1947-12-31" type="inclusive">1945-1947</unitdate></did><accessrestrict id="aspace_86e9c6f8654d92e03082cc77da83ef63"><head>Conditions Governing Access</head><p>Collection is open for research use.</p></accessrestrict><scopecontent id="aspace_d6eabc2c6a72074a6fb7005a258ec391"><head>Scope and Contents</head><p>Consists of miscellaneous correspondence, legal suits, financial matters, and technical developments.</p></scopecontent><arrangement id="aspace_e56c4150ea7f250774017f8c5fd06ac8"><head>Arrangement</head><p>Arranged by genre of material.</p></arrangement></c><c id="aspace_C0251_c0097" level="series"><did><unittitle>Series 5: Printed Matter</unittitle><physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1 box</extent></physdesc><unitdate datechar="creation">dates not examined</unitdate></did><accessrestrict id="aspace_576a70f9022d7a423c28aa664f14262c"><head>Conditions Governing Access</head><p>Collection is open for research use.</p></accessrestrict><scopecontent id="aspace_87044e2aeb10bdadabbcdf6ae7a67534"><head>Scope and Contents</head><p>Consists of television and promotional material.</p></scopecontent><arrangement id="aspace_ecf3826f50d2073651c155dd2ca1007e"><head>Arrangement</head><p>Arranged by genre of material.</p></arrangement></c><c id="aspace_C0251_c0101" level="series"><did><unittitle>Series 6: Papers of Others</unittitle><physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">2 boxes</extent></physdesc><unitdate datechar="creation" normal="1850-01-01/1850-12-31" type="inclusive">1850</unitdate></did><accessrestrict id="aspace_807cb0f0c0b9c4397822ec7d6623b4f7"><head>Conditions Governing Access</head><p>Collection is open for research use.</p></accessrestrict><scopecontent id="aspace_a0d766e4f2456f7b123b2af6a1c2d4de"><head>Scope and Contents</head><p>Consists of some papers and clippings of Samuel Finley Breese Morse.</p></scopecontent><arrangement id="aspace_df2a74b17b02f6981d7dc18258ea6ab9"><head>Arrangement</head><p>Not arranged according to any arrangement scheme.</p></arrangement><c id="aspace_C0251_c0102" level="file"><did><unittitle>Morse, Samuel F. B</unittitle><physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1 box</extent></physdesc><unitdate datechar="creation" normal="1850-01-01/1850-12-31" type="inclusive">1850</unitdate></did><accessrestrict id="aspace_cfab1b91ccf868ed11cc6bbfd630be2d"><head>Conditions Governing Access</head><p>Collection is open for research use.</p></accessrestrict><c id="aspace_C0251_c0103" level="file"><did><unittitle>Correspondence</unittitle><physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1 box</extent></physdesc><unitdate datechar="creation" normal="1850-01-01/1850-12-31" type="inclusive">1850</unitdate></did><accessrestrict id="aspace_106a5aeecfd9087bdd0abfdc7c8b8920"><head>Conditions Governing Access</head><p>Collection is open for research use.</p></accessrestrict></c></c></c></dsc>
+</archdesc>
+</ead>
