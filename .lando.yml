@@ -1,0 +1,28 @@
+name: pulfalight
+services:
+  pulfalight_2_demo_test_solr:
+    type: solr:8.4
+    portforward: true
+    core: pulfalight-core-test
+    app_mount: false
+    config:
+      dir: "solr/conf"
+  pulfalight_2_demo_development_solr:
+    type: solr:8.4
+    portforward: true
+    core: pulfalight-core-dev
+    app_mount: false
+    config:
+      dir: "solr/conf"
+  pulfalight_2_demo_database:
+    type: postgres:15
+    portforward: true
+    app_mount: false
+  pulfalight_2_demo_redis:
+    type: redis:7
+    portforward: true
+proxy:
+  pulfalight_2_demo_test_solr:
+    - pulfalight_2_demo.test.solr.lndo.site:8983
+  pulfalight_2_demo_development_solr:
+    - pulfalight_2_demo.dev.solr.lndo.site:8983

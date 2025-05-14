@@ -1,10 +1,10 @@
-load_defaults: 8.10.1
 development:
   adapter: solr
-  url: <%= ENV['SOLR_URL'] || "http://127.0.0.1:8983/solr/blacklight-core" %>
+  url: <%= ENV['SOLR_URL'] || "http://#{ENV["lando_pulfalight_2_demo_development_solr_conn_host"] || "127.0.0.1"}:#{ENV["lando_pulfalight_2_demo_development_solr_conn_port"] || 8983}/solr/pulfalight-core-dev" %>
 test: &test
   adapter: solr
-  url: <%= ENV['SOLR_URL'] || "http://127.0.0.1:8983/solr/blacklight-core" %>
+  url: <%= ENV['SOLR_URL'] || "http://#{ENV["lando_pulfalight_2_demo_test_solr_conn_host"] || "127.0.0.1"}:#{ENV['TEST_JETTY_PORT'] || ENV["lando_pulfalight_2_demo_test_solr_conn_port"] || 8984}/solr/pulfalight-core-test" %>
 production:
   adapter: solr
-  url: <%= ENV['SOLR_URL'] || "http://127.0.0.1:8983/solr/blacklight-core" %>
+  url: <%= ENV['SOLR_URL'] %>
+  timeout: 900
