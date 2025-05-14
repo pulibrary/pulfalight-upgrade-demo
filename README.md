@@ -1,24 +1,39 @@
-# README
+# Pulfalight-Upgrade-Demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Demo application for experiments with upgrading Pulfalight to ArcLight 1.x
 
-Things you may want to cover:
+### Updates from stock ArcLight
+- PUL respositories configuration
+- Pulfalight Solr schema
+- Addition to the Solr schema for `isi` fields
+- Pulfalight traject indexing configurations and supporting classes
+- Addition of sort_isi, total_component_count_isi, online_item_count_isi,
+online_item_count_isi, and component_level_isim fields to the ead indexer
+- Pulfalight generated fixtures
+- asdf configuration
+- Lando configuration
+- RSpec, rubocop, etc...
 
-* Ruby version
+### Development
 
-* System dependencies
+#### Setup
+* Install Lando from https://github.com/lando/lando/releases (at least 3.0.0-rrc.2)
 
-* Configuration
+```sh
+asdf install
+bundle install
+yarn install
+yarn build:css
+```
 
-* Database creation
+#### Starting / stopping services
+We use lando to run services required for both test and development
+environments.
 
-* Database initialization
+Start and initialize solr and database services with `rake servers:start`
 
-* How to run the test suite
+To stop solr and database services: `rake servers:stop` or `lando stop`
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Start development server
+- `rails s`
+- Access Pulfalight at http://localhost:3000/
