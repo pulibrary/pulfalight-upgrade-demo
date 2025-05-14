@@ -30,10 +30,25 @@ gem "solid_queue"
 
 group :development, :test do
   gem "brakeman", require: false
+  gem "database_cleaner"
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
+  gem "factory_bot_rails"
+  gem "rails-controller-testing"
+  gem "rspec-rails"
   gem "rubocop-rails-omakase"
 end
 
 group :development do
+  gem "foreman"
+  gem "listen"
   gem "web-console"
+end
+
+group :test do
+  gem "capybara", ">= 3.18"
+  gem "rspec_junit_formatter"
+  gem "simplecov", require: false
+  gem "timecop"
+  gem "webdrivers"
+  gem "webmock"
 end
