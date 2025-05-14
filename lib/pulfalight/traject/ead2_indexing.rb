@@ -33,7 +33,7 @@ module Pulfalight
 
     def configure_before
       settings do
-        provide "reader_class_name", "Traject::NokogiriReader"
+        provide "reader_class_name", "::Traject::NokogiriReader"
         provide "solr_writer.commit_on_close", "false"
         provide "repository", ENV["REPOSITORY_ID"]
         provide "logger", Logger.new($stderr)
@@ -60,7 +60,18 @@ module Pulfalight
       @component_indexer ||=
         begin
           config_file_path = Rails.root.join("lib", "pulfalight", "traject", "ead2_component_config.rb")
-          Traject::Indexer::NokogiriIndexer.new.tap do |i|
+
+          counter = Class.new do
+            def increment
+              @counter ||= 0
+              @counter += 1
+            end
+          end.new
+
+          ::Traject::Indexer::NokogiriIndexer.new.tap do |i|
+            i.settings do
+              provide :counter, counter
+            end
             i.load_config_file(config_file_path)
           end
         end

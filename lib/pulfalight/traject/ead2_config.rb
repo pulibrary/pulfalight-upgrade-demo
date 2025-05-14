@@ -25,7 +25,7 @@ require Rails.root.join("app", "values", "pulfalight", "location_code")
 require Rails.root.join("app", "values", "pulfalight", "physical_location_code")
 
 # rubocop:disable Style/MixinUsage
-extend TrajectPlus::Macros
+extend ::TrajectPlus::Macros
 # rubocop:enable Style/MixinUsage
 
 self.class.include(Pulfalight::Ead2Indexing)
@@ -387,6 +387,24 @@ to_field "language_ssm" do |_record, accumulator, context|
 end
 
 to_field "descrules_ssm", extract_xpath("/ead/eadheader/profiledesc/descrules")
+
+# count all descendant components from the top-level
+to_field "total_component_count_isi", first_only do |record, accumulator|
+  accumulator << record.xpath("//c|//c01|//c02|//c03|//c04|//c05|//c06|//c07|//c08|//c09|//c10|//c11|//c12").count
+end
+
+# count all digital objects from the top-level
+to_field "online_item_count_isi", first_only do |record, accumulator|
+  accumulator << record.xpath("//dao").count
+end
+
+to_field "component_level_isim" do |_record, accumulator, _context|
+  accumulator << 0
+end
+
+to_field "sort_isi" do |_record, accumulator, _context|
+  accumulator << 0
+end
 
 to_field "prefercite_ssm" do |_record, accumulator, context|
   titles = context.output_hash["title_ssm"]

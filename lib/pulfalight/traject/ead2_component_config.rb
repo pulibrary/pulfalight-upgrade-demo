@@ -18,7 +18,7 @@ require Rails.root.join("lib", "pulfalight", "traject", "ead2_indexing")
 # Module for providing recursion over components
 
 # rubocop:disable Style/MixinUsage
-extend TrajectPlus::Macros
+extend ::TrajectPlus::Macros
 # rubocop:enable Style/MixinUsage
 
 to_field "ref_ssi" do |record, accumulator, _context|
@@ -287,6 +287,10 @@ to_field "level_sim" do |_record, accumulator, context|
   next unless context.output_hash["level_ssm"]
 
   accumulator.concat context.output_hash["level_ssm"]&.map(&:capitalize)
+end
+
+to_field "sort_isi" do |_record, accumulator, _context|
+  accumulator.replace([ settings[:counter].increment ])
 end
 
 to_field "container_location_codes_ssim" do |record, accumulator, context|

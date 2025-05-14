@@ -4,6 +4,7 @@ gem "arclight"
 gem "blacklight-locale_picker"
 gem "bootsnap", require: false
 gem "bootstrap", "~> 5.3"
+gem "change_the_subject"
 gem "cssbundling-rails"
 gem "devise"
 gem "devise-guests", "~> 0.8"
