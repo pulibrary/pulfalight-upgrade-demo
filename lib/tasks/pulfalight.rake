@@ -31,26 +31,26 @@ namespace :pulfalight do
     end
 
     desc "Index a single EAD file into Solr"
-    task :file, [:file] => :environment do |_t, args|
+    task :file, [ :file ] => :environment do |_t, args|
       $stdout.puts "Indexing #{args[:file]}..."
       enqueue = ENV["ENQUEUE"] == "false" ? false : true
       index_file(relative_path: args[:file], root_path: Rails.root, enqueue: enqueue)
     end
 
     desc "Index a directory of PULFA EAD files into Solr"
-    task :directory, [:directory] => :environment do |_t, args|
+    task :directory, [ :directory ] => :environment do |_t, args|
       index_directory(name: args[:directory])
     end
 
     namespace :configs do
       desc "Updates solr config files from github"
-      task :update, [:solr_dir] => :environment do |_t, args|
+      task :update, [ :solr_dir ] => :environment do |_t, args|
         solr_dir = args[:solr_dir] || Rails.root.join("solr")
 
-        ["_rest_managed.json", "admin-extra.html", "elevate.xml",
+        [ "_rest_managed.json", "admin-extra.html", "elevate.xml",
          "mapping-ISOLatin1Accent.txt", "protwords.txt", "schema.xml",
          "scripts.conf", "solrconfig.xml", "spellings.txt", "stopwords.txt",
-         "stopwords_en.txt", "synonyms.txt"].each do |file|
+         "stopwords_en.txt", "synonyms.txt" ].each do |file|
           response = Faraday.get url_for_file(file)
           File.open(File.join(solr_dir, "conf", file), "wb") { |f| f.write(response.body) }
         end
@@ -148,15 +148,15 @@ namespace :pulfalight do
     root_path ||= pulfa_root
     ead_file_path = if File.exist?(relative_path)
                       relative_path
-                    else
+    else
                       File.join(root_path, relative_path)
-                    end
+    end
     repository_id = resolve_repository_id(ead_file_path)
 
     if enqueue
-      IndexJob.perform_later(file_paths: [ead_file_path], repository_id: repository_id)
+      IndexJob.perform_later(file_paths: [ ead_file_path ], repository_id: repository_id)
     else
-      IndexJob.perform_now(file_paths: [ead_file_path], repository_id: repository_id)
+      IndexJob.perform_now(file_paths: [ ead_file_path ], repository_id: repository_id)
     end
   end
 
